@@ -1,0 +1,15 @@
+@import '~react-md/src/scss/react-md';
+$md-primary-color: $md-indigo-900;
+$md-secondary-color: $md-indigo-800;
+$md-tertiary-color: $md-blue-300;
+
+
+.main-container,
+.darker-background {
+    background-color: white;
+}
+
+a:link {
+    color: $md-secondary-color;
+    text-decoration: none;
+}

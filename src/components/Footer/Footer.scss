@@ -1,0 +1,79 @@
+@import '../../layouts/theme.scss';
+
+.footer  {
+    justify-content: center;
+    
+    align-content: center;
+    background-color: $md-primary-color;
+    padding: 10px 5px 5px;
+
+
+notice-container .body .h3 .h4 {
+       
+    }
+
+
+
+    .notice-container {
+        display: flex;
+        color: white;
+        align-content: center;
+        align-items: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-left: 10px;
+
+        .copyright {
+            display: flex;
+           
+            flex: 1;
+            justify-content: flex-start;
+
+            @media (max-width: 640px - 1px) {
+                justify-content: center;
+            }
+        }
+
+        .rss {
+            display: flex;
+         
+
+            @media (max-width: 640px - 1px) {
+                display: none;
+            }
+
+            flex: 1;
+            justify-content: center;
+        }
+
+        .based-on {
+            display: flex;
+
+
+            @media (max-width: 640px - 1px) {
+                display: none;
+            }
+
+            flex: 1;
+            justify-content: flex-end;
+        }
+
+        h6 {
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+
+
+
+        
+    }
+}
+
+.footer-fixed {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 15;
+}
