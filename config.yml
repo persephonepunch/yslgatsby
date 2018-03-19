@@ -1,0 +1,13 @@
+backend: 
+  name: test-repo
+  
+media_folder: static/assets
+
+collections:
+  - name: post
+    label: Posts
+    folder: src/post
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - { name: body, label: Post, widget: markdown }

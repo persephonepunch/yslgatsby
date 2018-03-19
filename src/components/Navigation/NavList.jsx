@@ -15,7 +15,7 @@ function GetNavList(config) {
 
     {
       primaryText: "Face",
-      leftIcon: <FontIcon> menu</FontIcon>,
+      leftIcon: <FontIcon> chevron_right</FontIcon>,
       component: Link,
       to: "/tags/face"
     },
@@ -23,7 +23,7 @@ function GetNavList(config) {
 
     {
       primaryText: "Body",
-      leftIcon: <FontIcon> menu</FontIcon>,
+      leftIcon: <FontIcon> chevron_right</FontIcon>,
       component: Link,
       to: "/tags/body"
     },
@@ -31,7 +31,7 @@ function GetNavList(config) {
 
     {
       primaryText: "Breast",
-      leftIcon: <FontIcon> menu</FontIcon>,
+      leftIcon: <FontIcon> chevron_right</FontIcon>,
       component: Link,
       to: "/tags/breast"
     },
